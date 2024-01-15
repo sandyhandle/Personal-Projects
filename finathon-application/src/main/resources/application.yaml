@@ -1,0 +1,14 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: Finathon Applicatioin
+  datasource:
+    url: jdbc:postgresql://localhost:5438/user_credentials
+    username: santhosh
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
