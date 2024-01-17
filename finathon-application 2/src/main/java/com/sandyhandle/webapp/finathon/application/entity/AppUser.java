@@ -35,7 +35,7 @@ public class AppUser implements UserDetails {
 
     @Override
     public String getUsername() {
-        return name;
+        return email;
     }
 
     @Override
@@ -57,4 +57,5 @@ public class AppUser implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
+
 }
